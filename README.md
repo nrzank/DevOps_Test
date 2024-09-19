@@ -11,6 +11,8 @@ touch ~/devops_test/readme.txt
 pwd
 
 ### Снимок Экрана:
+![Uploading azure.png…]()
+
 
 # Основы Git
 ### Создание нового локального репозитория:
