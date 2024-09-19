@@ -44,13 +44,13 @@ nurzhan@nrzank:~/devops_test$ git add test.txt
 nurzhan@nrzank:~/devops_test$ git commit -m 'initial commit'
 initial commit
  1 file changed, 1 insertion(+)
- create mode 100644 test.txt
+ create mode 10**644 test.txt
 ```
 
 ### Показ истории коммитов:
 ```bash
 nurzhan@nrzank:~/devops_test$ git log
-commit e228cdc441529914e553072514f6d6985d18c0f6 (HEAD -> master)
+commit e228cdc441529914e55307***14f6d6985d18c0f6 (HEAD -> master)
 Author: nrzank <asapnrz@gmail.com>
 Date:   Thu Sep 19 16:17:01 2024 +0500
 
