@@ -9,34 +9,46 @@ total 4
 drwxr-xr-x 2 nurzhan nurzhan 4096 Sep 19 16:12 devops_test
 ```
 ### Создание пустого файла readme.txt в созданной директории:
+```bash
 nurzhan@nrzank:~$ ls -l
 total 4
 drwxr-xr-x 2 nurzhan nurzhan 4096 Sep 19 16:12 devops_test
 nurzhan@nrzank:~$ cd devops_test/
 nurzhan@nrzank:~/devops_test$ touch readme.txt
+```
 
 ### Показ текущего пути в терминале:
+```bash
 nurzhan@nrzank:~/devops_test$ pwd
 /home/nurzhan/devops_test
+```
 
 
 
 
 # Основы Git
 ### Создание нового локального репозитория:
+
+```bash
 nurzhan@nrzank:~/devops_test$ git init
+```
 
 ### Создание файла test.txt и добавление в него текста:
+```bash
 nurzhan@nrzank:~/devops_test$ echo "Hello DevOps" > test.txt
+```
 
 ### Добавление изменений и коммит с сообщением:
+```bash
 nurzhan@nrzank:~/devops_test$ git add test.txt
 nurzhan@nrzank:~/devops_test$ git commit -m 'initial commit'
 initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 test.txt
+```
 
 ### Показ истории коммитов:
+```bash
 nurzhan@nrzank:~/devops_test$ git log
 commit e228cdc441529914e553072514f6d6985d18c0f6 (HEAD -> master)
 Author: nrzank <asapnrz@gmail.com>
@@ -44,7 +56,8 @@ Date:   Thu Sep 19 16:17:01 2024 +0500
 
     initial commit
 
-    
+```
+
 # Основы сетевых технологий
 ### Что такое IP-адрес и для чего он используется?
 IP-адрес — это уникальный числовой идентификатор устройства в сети, который используется для его идентификации и обеспечения связи между устройствами через интернет или локальные сети. IP-адрес позволяет передавать данные между устройствами.
@@ -56,6 +69,8 @@ IP-адрес — это уникальный числовой идентифи�
 
 
 ### Скрипт на Python:
+
+```bash
 nurzhan@nrzank:~/devops_test$ python3
 Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
@@ -73,7 +88,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 9
 10
 >>>
-
+```
 # Логическое мышление
 ### Задача с лампочками и выключателями:
 1. Включить первый выключатель и оставить его включённым на некоторое время.
