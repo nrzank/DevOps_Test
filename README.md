@@ -2,13 +2,12 @@
 
 # Основы Linux
 ### Создание директории devops_test в домашнем каталоге:
-
 ```bash
 nurzhan@nrzank:~$ mkdir ~/devops_test
 nurzhan@nrzank:~$ ls -l
 total 4
 drwxr-xr-x 2 nurzhan nurzhan 4096 Sep 19 16:12 devops_test
-
+```
 ### Создание пустого файла readme.txt в созданной директории:
 nurzhan@nrzank:~$ ls -l
 total 4
